@@ -1,5 +1,4 @@
 gunicorn
-socket
 threading
 autopep8==2.0.4
 certifi==2023.11.17
