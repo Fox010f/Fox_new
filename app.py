@@ -3,7 +3,7 @@ import socket
 import threading
 
 # استبدال "TOKEN" بتوكن البوت الخاص بك
-bot = telebot.TeleBot("6962701374:AAEd0KNVe4AtOLcV7WaJ5dgwaw2cEtqLpaA")
+bot = telebot.TeleBot("0KNVe4AtOLcV7WaJ5dgwaw2cEtqLpaA")
 
 # تعريف الدالة للرد على الرسائل بكلمة "تم"
 @bot.message_handler(func=lambda message: True)
