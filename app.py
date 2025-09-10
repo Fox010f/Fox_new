@@ -283,7 +283,6 @@ for i in range(int(re)):
 	    response = requests.patch(url, data=json.dumps(payload), headers=headers)
 	    end_time = time.time()
 	    elapsed = round(end_time - start_time, 2)
-	    print(elapsed)
 	    if "{}" in response.text:
 	    	print(f'{Bl}[ {C}{i+1} {Bl}][ {C}{elapsed} ⏰{Bl}]{C}>> {G}Accept invitation [{fardnum}] 5200 Flax{B}¬¦¬>{G}✅{B}¦ {PN}@{Bl}F_0_01')
 	    	
@@ -294,7 +293,7 @@ for i in range(int(re)):
 	    		foxx = response.json()
 	    	print(f'{Bl}[ {C}{i+1} {Bl}][ {C}{elapsed} ⏰{Bl}]{C}>> {G}Accept invitation [{fardnum}] 5200 Flax{B}¬¦¬>{R}{foxx}{B}¦ {PN}@{Bl}F_0_01')
 		
-	print()
+	
 	def change_quota():
 	    
 	    start_time = time.time() 
@@ -364,7 +363,7 @@ for i in range(int(re)):
 	    response = requests.patch(url, data=json.dumps(payload), headers=headers)
 	    end_time = time.time()
 	    elapsed = round(end_time - start_time, 2)
-	    print(elapsed)
+	    print()
 
 	    if "{}" in response.text:
 	    	print(f'{Bl}[ {C}{i+1} {Bl}][ {C}{elapsed} ⏰{Bl}]{C}>> {G}Change Quota [{fristfard}] to 5200 Flax{B}¬¦¬>{G}✅{B}¦ {PN}@{Bl}F_0_01')
