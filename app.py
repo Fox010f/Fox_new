@@ -6,7 +6,6 @@ import webbrowser
 import sys
 
 
-
 Z = '\x1b[2;31m'# Red
 A = '\x1b[2;39m'
 F = '\033[1;32m' #اخضر
@@ -43,8 +42,9 @@ print(R+f'➧   [+]{Y}ملك الثغرات {ppp}🍀')
 print(Y+f'{Bl}╚━━━━━━━━━━━━━━━━👑👑━━━━━━━━━━━━━━━━━━━╝              ')
 print('')
 
-
+webbrowser.open("http://t.me/Fox_pass_50000Bot")
 fox = input(R+f' [+] {Y}Enter The Password {R}:{G} ')
+
 
 url = "https://raw.githubusercontent.com/Fox010f/Visaqwaa/refs/heads/main/Pass"
 try:
@@ -55,13 +55,19 @@ try:
     else:
         print()
         print(f' {Bl}𝐄𝐑𝐎𝐑𝐑🔴 {Y}: {R}Wrong password')
+        
         webbrowser.open("http://t.me/Fox_pass_50000Bot")
         exit()
 except requests.exceptions.RequestException as e:
     print(f' {Bl}𝐄𝐑𝐎𝐑𝐑🔴 {Y}: {R}تحقق من الاتصال ب الانترنت')
     exit()
     
-print()
+number = input(R+f' [+] {Y}Enter number oner(رقم المالك){R}:{G} ')
+password = input(R+f' [+] {Y}Enter Password oner(باسورد المالك){R}:{G} ')
+fardnum = input(R+f' [+] {Y}Enter second number(الفرد الطاير){R}:{G} ')
+pass_fardnum = input(R+f' [+] {Y}Enter Password second number(باسورد الفرد الطاير){R}:{G} ')
+fristfard = input(R+f' [+] {Y}Enter Number Frist number(الفرد الثابت){R}:{G} ')
+re = input(R+f' [+] {Y}Enter (عدد الدورات) {R}:{G} ')
 def jalan(z):
     for e in z + '\n' :
         sys.stdout.write(e)
